@@ -10,9 +10,9 @@ class car{
         this.gas=gas
         this.numbe=numbe
     }
-    showValue(){
+    getNumGas(){
         console.log(`ガソリンは${this.gas}で、ナンバーは${this.numbe}です`)
     }
 }
 let getNumGas =new car(200,13);
-getNumGas.showValue();
+getNumGas.getNumGas();
